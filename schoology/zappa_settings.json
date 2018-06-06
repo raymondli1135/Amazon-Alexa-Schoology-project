@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "schoology.app", 
+        "aws_region": "us-east-1", 
+        "profile_name": "default", 
+        "project_name": "schoology", 
+        "runtime": "python2.7", 
+        "s3_bucket": "zappa-stjoahszr"
+    }
+}
