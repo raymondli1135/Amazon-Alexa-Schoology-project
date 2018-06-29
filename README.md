@@ -22,5 +22,5 @@ The Amazon Skills Kit Developer Console is where you can build, manage, or test 
 
 Invocation Name: A name for your custom skill. A name for the skill is needed in order for the Alexa to recognize when to trigger such skill.
 
-Intents/Utterances:
+Intents/Utterances: An intent is a specific action the you want to achieve with the skill. Utterances are what triggers the action to be played. In this case, the intent would be searching for an assignment on a particular day. An example utterance would be, "What do I have on Monday?"
 
