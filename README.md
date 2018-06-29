@@ -19,4 +19,5 @@ The Amazon Skills Kit Developer Console is where you can build, manage, or test 
 2. Intents/Utterances 
 3. Build Model
 4. Endpoints
+as
 
