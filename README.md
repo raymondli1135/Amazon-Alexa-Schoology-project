@@ -30,6 +30,8 @@ Endpoints: An url that points to the server that performs the skill. The url is 
 ## Selenium
 Selenium is a Python package that can simulate the the process of web browsing and data extraction. Using this package, we can simulate the process of logging on to Schoology and finding upcoming assignments. We can use Selenium to collect the assignments for each particular day.
 
+In order for this to work, the proper Schoology link as well as the username and password must be supllied to the Selenium file.
+
 ## Boto3
 Boto3 is a Python package that allows information to be stored in S3 (Simple Cloud Storage System). This acts as a database where we can store the inforamtion collected from selenium.
 
