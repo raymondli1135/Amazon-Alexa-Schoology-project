@@ -19,5 +19,8 @@ The Amazon Skills Kit Developer Console is where you can build, manage, or test 
 2. Intents/Utterances 
 3. Build Model
 4. Endpoints
-as
+
+Invocation Name: A name for your custom skill. A name for the skill is needed in order for the Alexa to recognize when to trigger such skill.
+
+Intents/Utterances:
 
