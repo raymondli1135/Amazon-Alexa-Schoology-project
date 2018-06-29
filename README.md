@@ -14,7 +14,7 @@ Setting up Zappa and AWS Lambda is demonstarated in this tutorial: https://devel
 ## Flask-Ask
 Flask-Ask is a python framework used to write Amazon Alexa Skills. The interactions between the user and the Alexa are written using this.
 ## Amazon Skills Kit Developer Console
-The Amazon Skills Kit Developer Console is where you can build, manage, or test newly created skills. This process of creating and uploading a new skill can be done with 4 steps:
+The Amazon Skills Kit Developer Console is where you can build, manage, or test newly created skills. Accessing this interface is also done in the tutorial under Zappa + AWS Lambda. The process of creating and uploading a new skill can be done with 4 steps:
 1. Invocation Name
 2. Intents/Utterances 
 3. Build Model
@@ -23,4 +23,15 @@ The Amazon Skills Kit Developer Console is where you can build, manage, or test 
 Invocation Name: A name for your custom skill. A name for the skill is needed in order for the Alexa to recognize when to trigger such skill.
 
 Intents/Utterances: An intent is a specific action the you want to achieve with the skill. Utterances are what triggers the action to be played. For this project, the intent would be searching for an assignment on a particular day. An example utterance would be, "What do I have on Monday?"
+
+Build Model: Builds the current version of your skill. Whenever a change is made, you must re-build the model.
+
+Endpoints: An url that points to the server that performs the skill. The url is generated through Zappa.
+## Selenium
+Selenium is a Python package that can simulate the the process of web browsing and data extraction. Using this package, we can simulate the process of logging on to Schoology and finding upcoming assignments. We can use Selenium to collect the assignments for each particular day.
+
+## Boto3
+Boto3 is a Python package that allows information to be stored in S3 (Simple Cloud Storage System). This acts as a database where we can store the inforamtion collected from selenium.
+
+## Cronjob
 
