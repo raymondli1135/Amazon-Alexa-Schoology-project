@@ -8,11 +8,11 @@ The goal of this project is to create a Schoology skill for the Amazon Alexa/Ech
 5. Boto3
 6. Cronjob
 ## Zappa + AWS Lambda
-AWS (Amazon Web Service) Lambda is a cloud service thatcan be used to host or run code. Zappa is a tool used to deploy various Python related projects into AWS Lambda.
+AWS (Amazon Web Service) Lambda is a cloud service that can be used to host or run code. Zappa is a tool used to deploy various Python related projects into AWS Lambda.
 
 Setting up Zappa and AWS Lambda is demonstarated in this tutorial: https://developer.amazon.com/blogs/post/8e8ad73a-99e9-4c0f-a7b3-60f92287b0bf/New-Alexa-Tutorial-Deploy-Flask-Ask-Skills-to-AWS-Lambda-with-Zappa
 ## Flask-Ask
-Flask-Ask is a python framework used to write Amazon Alexa Skills. The interactions between the user and the Alexa are written using this.
+Flask-Ask is a python framework used to write Amazon Alexa Skills. The interactions between the user and the Alexa are written using this. We will be using Zappa to deploy this python project.
 ## Amazon Skills Kit Developer Console
 The Amazon Skills Kit Developer Console is where you can build, manage, or test newly created skills. Accessing this interface is also done in the tutorial under Zappa + AWS Lambda. The process of creating and uploading a new skill can be done with 4 steps:
 1. Invocation Name
