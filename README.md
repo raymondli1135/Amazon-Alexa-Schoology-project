@@ -28,14 +28,17 @@ Build Model: Builds the current version of your skill. Whenever a change is made
 
 Endpoints: An url that points to the server that performs the skill. The url is generated through Zappa.
 ## Selenium
-Selenium is a Python package that can simulate the the process of web browsing and data extraction. Using this package, we can simulate the process of logging on to Schoology and finding upcoming assignments. If written as a non-headless version, you can see the process of Selenium goign through the various steps through a browser window. If written as a headless version, no browser window will be shown.
+Selenium is a Python package that can simulate the the process of web browsing and data extraction. Using this package, we can simulate the process of logging on to Schoology and finding upcoming assignments. If written as a non-headless version, you can see the process of Selenium going through the various steps through a browser window. If written as a headless version, no browser window will be shown.
 
 We can use Selenium to collect the assignments for each particular day.
 
 In order for this to work, the proper Schoology link as well as the username and password must be suplied to the Selenium file.
 
 ## Boto3
-Boto3 is a Python package that allows information to be stored in S3 (Simple Cloud Storage System). This acts as a database where we can store the inforamtion collected from selenium.
+Boto3 is a Python package that allows information to be stored in S3 (Simple Cloud Storage System). This acts as a database where we can store the inforamtion collected from selenium. 
+
+We can then use Boto3 in our Flask-Ask program to retrieve the stored assignments.
 
 ## Cronjob
+Cronjob is a Unix utility that can be used to schedule a job to run at periodic intervals. Since assignments are constantly updated, having a separate server that can run the Selenium file on its own would be beneficial.
 
